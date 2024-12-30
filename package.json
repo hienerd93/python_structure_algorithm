@@ -1,0 +1,13 @@
+{
+  "name": "python_structure_algorithm",
+  "version": "1.0.0",
+  "description": "The collection of my code use for solving problem on Hackerrank via Python 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "http": "npx http-server -p 8080 ./public -o"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
