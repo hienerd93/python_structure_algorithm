@@ -1,13 +1,6 @@
 #!/bin/python3
 
-#
-# Complete the 'plusMinus' function below.
-#
-# The function accepts INTEGER_ARRAY arr as parameter.
-#
-
 def plusMinus(arr):
-    # Write your code here
     zenoAmount = 0
     positiveAmount = 0
     for x in arr:

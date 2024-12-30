@@ -2,18 +2,7 @@
 
 import os
 
-#
-# Complete the 'twoArrays' function below.
-#
-# The function is expected to return a STRING.
-# The function accepts following parameters:
-#  1. INTEGER k
-#  2. INTEGER_ARRAY A
-#  3. INTEGER_ARRAY B
-#
-
 def twoArrays(k, A, B):
-    # Write your code here
     len_arr = len(A)
     avg = (sum(A) + sum(B)) / len_arr
     balance = max(A) + min(B) >= k and max(B) + min(A) >= k

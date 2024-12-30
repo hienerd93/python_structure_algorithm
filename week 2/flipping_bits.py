@@ -2,15 +2,7 @@
 
 import os
 
-#
-# Complete the 'flippingBits' function below.
-#
-# The function is expected to return a LONG_INTEGER.
-# The function accepts LONG_INTEGER n as parameter.
-#
-
 def flippingBits(n):
-    # Write your code here
     return 4294967295 - n
 
 if __name__ == '__main__':

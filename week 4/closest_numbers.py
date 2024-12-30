@@ -2,15 +2,7 @@
 
 import os
 
-#
-# Complete the 'closestNumbers' function below.
-#
-# The function is expected to return an INTEGER_ARRAY.
-# The function accepts INTEGER_ARRAY arr as parameter.
-#
-
 def closestNumbers(arr):
-    # Write your code here
     arr_sort = sorted(arr)
     difference_dict = {}
 

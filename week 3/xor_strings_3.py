@@ -1,3 +1,5 @@
+#!/bin/python3
+
 def strings_xor(s, t):
     res = ""
     for i in range(len(s)):

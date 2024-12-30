@@ -1,4 +1,5 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
+#!/bin/python3
+
 import re
 import sys
 

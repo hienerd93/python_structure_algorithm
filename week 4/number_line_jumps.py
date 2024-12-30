@@ -2,19 +2,7 @@
 
 import os
 
-#
-# Complete the 'kangaroo' function below.
-#
-# The function is expected to return a STRING.
-# The function accepts following parameters:
-#  1. INTEGER x1
-#  2. INTEGER v1
-#  3. INTEGER x2
-#  4. INTEGER v2
-#
-
 def kangaroo(x1, v1, x2, v2):
-    # Write your code here
     if x1 == x2 and v1 == v2:
         return 'YES'
     elif x2 == x1 and v1 != v1 or v1 == v2 and x1 != x2:

@@ -1,22 +1,9 @@
 #!/bin/python3
 
-import math
 import os
-import random
 import re
-import sys
-
-#
-# Complete the 'minimumNumber' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts following parameters:
-#  1. INTEGER n
-#  2. STRING password
-#
 
 def minimumNumber(n, password):
-    # Return the minimum number of characters to make the password strong
     checkDigit = 0 if re.search(r'(?=.*\d)', password) else 1
     checkLowwer = 0 if re.search(r'(?=.*[a-z])', password) else 1
     checkUpper = 0 if re.search(r'(?=.*[A-Z])', password) else 1

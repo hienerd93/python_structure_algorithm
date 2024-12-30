@@ -1,15 +1,8 @@
 #!/bin/python3
 
 import os
-#
-# Complete the 'minimumAbsoluteDifference' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts INTEGER_ARRAY arr as parameter.
-#
 
 def minimumAbsoluteDifference(arr):
-    # Write your code here
     len_arr = len(arr)
     sort_arr = sorted(arr)
     min_abs = 9999999999

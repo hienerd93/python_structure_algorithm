@@ -2,15 +2,7 @@
 
 import os
 
-#
-# Complete the 'diagonalDifference' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts 2D_INTEGER_ARRAY arr as parameter.
-#
-
 def diagonalDifference(arr):
-    # Write your code here
     len_arr = len(arr)
     sum_LtR = 0
     sum_RtL = 0

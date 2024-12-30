@@ -3,18 +3,10 @@
 import os
 import re
 
-#
-# Complete the 'pangrams' function below.
-#
-# The function is expected to return a STRING.
-# The function accepts STRING s as parameter.
-#
-
 def replace_uppercase(match):
     return match.group(0).lower()
 
 def pangrams(s):
-    # Write your code here
     result = re.sub(r'[A-Z]', replace_uppercase, s)
     result = re.sub(r'\s+', '', result)
     result = [x for x in result]

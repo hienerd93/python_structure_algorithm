@@ -2,14 +2,7 @@
 
 import os
 
-#
-# Complete the 'separateNumbers' function below.
-#
-# The function accepts STRING s as parameter.
-#
-
 def separateNumbers(s):
-    # Write your code here
     res = 'NO'
     for index in range(1, len(s) // 2 + 1):
         first = int(s[0:index])

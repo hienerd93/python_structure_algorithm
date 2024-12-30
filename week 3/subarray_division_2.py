@@ -2,18 +2,7 @@
 
 import os
 
-#
-# Complete the 'birthday' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts following parameters:
-#  1. INTEGER_ARRAY s
-#  2. INTEGER d
-#  3. INTEGER m
-#
-
 def birthday(s, d, m):
-    # Write your code here
     count = 0
     iterator = range(len(s) - m + 1) if len(s) > m else range(1)
     for index in iterator:

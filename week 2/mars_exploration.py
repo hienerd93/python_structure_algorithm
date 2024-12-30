@@ -2,15 +2,7 @@
 
 import os
 
-#
-# Complete the 'marsExploration' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts STRING s as parameter.
-#
-
 def marsExploration(s):
-    # Write your code here
     len_s = len(s)
     expected = (len_s // 3) * 'SOS'
     diff = 0

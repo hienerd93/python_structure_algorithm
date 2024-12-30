@@ -2,15 +2,7 @@
 
 import os
 
-#
-# Complete the 'timeConversion' function below.
-#
-# The function is expected to return a STRING.
-# The function accepts STRING s as parameter.
-#
-
 def timeConversion(s):
-    # Write your code here
     isAm = s[8:10] == 'AM'
     hour = s[0:2]
     if hour == '12' and isAm:

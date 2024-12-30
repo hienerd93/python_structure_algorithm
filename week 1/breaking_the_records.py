@@ -2,15 +2,7 @@
 
 import os
 
-#
-# Complete the 'breakingRecords' function below.
-#
-# The function is expected to return an INTEGER_ARRAY.
-# The function accepts INTEGER_ARRAY scores as parameter.
-#
-
 def breakingRecords(scores):
-    # Write your code here
     breakingMost = 0
     breakingLeast = 0
     minScore = scores[0]
@@ -23,8 +15,6 @@ def breakingRecords(scores):
             breakingLeast += 1
             minScore = score
     return [breakingMost, breakingLeast]
-        
-        
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
